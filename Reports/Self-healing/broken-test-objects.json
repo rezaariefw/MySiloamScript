@@ -1,0 +1,64 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/button_Lanjut",
+      "brokenLocator": "//*[@id\u003d\"root\"]/div[1]/div/main/div/div/div[2]/div/div[3]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[12]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/button_Lanjut_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Konfirmasi",
+      "brokenLocator": "//button[@id\u003d\u0027appointment-done\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Penghargaan\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Konfirmasi_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/identitas/klik kartu identitas",
+      "brokenLocator": "//input[@name\u003d\u0027nid\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/identitas/klik kartu identitas_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Pre-regist OPD/FO/button_Save",
+      "brokenLocator": "//div[4]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Pre-regist OPD/FO/button_Save_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Pre-regist OPD/FO/button_Sign In FO OPD",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Password\u0027])[1]/following::button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Pre-regist OPD/FO/button_Sign In FO OPD_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Nama Lengkap(Sesuai ID)_name",
+      "brokenLocator": "//input[@name\u003d\u0027name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Nama Lengkap(Sesuai ID)_name_position.png"
+    }
+  ]
+}

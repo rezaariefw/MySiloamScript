@@ -1,0 +1,86 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre-regist,Chrome 92.0.4515.159,,,2021-08-27 15:18:22,2021-08-27 15:20:21,1m - 59.691s,PASSED
+,,,,,,,
+Test Cases/Pre-regist Covid/linktree,Chrome 92.0.4515.159,,,2021-08-27 15:18:22,2021-08-27 15:20:21,1m - 58.852s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.159,,,2021-08-27 15:18:24,2021-08-27 15:18:27,3.081s,PASSED
+"navigateToUrl(""https://mysiloam-api-staging.siloamhospitals.com/linktree/"")",Chrome 92.0.4515.159,,,2021-08-27 15:18:27,2021-08-27 15:18:28,0.472s,PASSED
+"waitForElementVisible(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/div_Select""), 120)",Chrome 92.0.4515.159,,,2021-08-27 15:18:28,2021-08-27 15:18:29,1.275s,PASSED
+maximizeWindow(),Chrome 92.0.4515.159,,,2021-08-27 15:18:29,2021-08-27 15:18:29,0.153s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-08-27 15:18:29,2021-08-27 15:18:31,2.040s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/div_Select""))",Chrome 92.0.4515.159,,,2021-08-27 15:18:31,2021-08-27 15:18:31,0.411s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-08-27 15:18:31,2021-08-27 15:18:33,2.009s,PASSED
+"setText(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Select_react-select-2-input""), NamaRS)",Chrome 92.0.4515.159,,,2021-08-27 15:18:33,2021-08-27 15:18:34,0.837s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-08-27 15:18:34,2021-08-27 15:18:36,2.017s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Pilih RS""))",Chrome 92.0.4515.159,,,2021-08-27 15:18:36,2021-08-27 15:18:37,0.369s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-08-27 15:18:37,2021-08-27 15:18:39,2.010s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Pilih NonDT""))",Chrome 92.0.4515.159,,,2021-08-27 15:18:39,2021-08-27 15:18:39,0.429s,PASSED
+"waitForElementVisible(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Rapid Test Serology""), 30)",Chrome 92.0.4515.159,,,2021-08-27 15:18:39,2021-08-27 15:18:40,0.670s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Rapid Test Serology""))",Chrome 92.0.4515.159,,,2021-08-27 15:18:40,2021-08-27 15:18:40,0.455s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-08-27 15:18:40,2021-08-27 15:18:42,2.018s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/button_Pilih""))",Chrome 92.0.4515.159,,,2021-08-27 15:18:42,2021-08-27 15:18:43,0.379s,PASSED
+"waitForElementVisible(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Nama Lengkap(Sesuai ID)_name""), 0)",Chrome 92.0.4515.159,,,2021-08-27 15:18:43,2021-08-27 15:18:46,3.161s,PASSED
+"setText(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Nama Lengkap(Sesuai ID)_name""), NamaSID)",Chrome 92.0.4515.159,,,2021-08-27 15:18:46,2021-08-27 15:18:47,0.906s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-27 15:18:47,2021-08-27 15:18:48,1.015s,PASSED
+"scrollToElement(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Tanggal Kunjungan_appointment_date""), 30)",Chrome 92.0.4515.159,,,2021-08-27 15:18:48,2021-08-27 15:18:48,0.348s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-08-27 15:18:48,2021-08-27 15:18:50,2.017s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Nomor Handphone_form-control""))",Chrome 92.0.4515.159,,,2021-08-27 15:18:50,2021-08-27 15:18:50,0.410s,PASSED
+"setText(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Nomor Handphone_form-control""), NoHP)",Chrome 92.0.4515.159,,,2021-08-27 15:18:50,2021-08-27 15:18:51,0.912s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Alamat Email_email""))",Chrome 92.0.4515.159,,,2021-08-27 15:18:51,2021-08-27 15:18:52,0.476s,PASSED
+"setText(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Alamat Email_email""), Email)",Chrome 92.0.4515.159,,,2021-08-27 15:18:52,2021-08-27 15:18:53,1.020s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-27 15:18:53,2021-08-27 15:18:54,1.012s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Tanggal Kunjungan_appointment_date""))",Chrome 92.0.4515.159,,,2021-08-27 15:18:54,2021-08-27 15:18:54,0.437s,PASSED
+if (TanggalKunjungan != 0),Chrome 92.0.4515.159,,,2021-08-27 15:18:54,2021-08-27 15:18:54,0.002s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/span_OK""))",Chrome 92.0.4515.159,,,2021-08-27 15:18:54,2021-08-27 15:18:55,0.548s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-27 15:18:55,2021-08-27 15:18:56,1.019s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/WaktuKunjungan""))",Chrome 92.0.4515.159,,,2021-08-27 15:18:56,2021-08-27 15:18:56,0.397s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/sementara""))",Chrome 92.0.4515.159,,,2021-08-27 15:18:56,2021-08-27 15:18:57,0.549s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-27 15:18:57,2021-08-27 15:18:58,1.012s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Cara Pembayaran""))",Chrome 92.0.4515.159,,,2021-08-27 15:18:58,2021-08-27 15:18:58,0.393s,PASSED
+"if (CaraPembayaran == ""Jaminan"")",Chrome 92.0.4515.159,,,2021-08-27 15:18:58,2021-08-27 15:19:06,7.293s,PASSED
+"if (PernahBerobat == ""Tidak"")",Chrome 92.0.4515.159,,,2021-08-27 15:19:06,2021-08-27 15:19:07,1.433s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/span_Data pasien sama dengan data pemesan""))",Chrome 92.0.4515.159,,,2021-08-27 15:19:07,2021-08-27 15:19:07,0.449s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-08-27 15:19:07,2021-08-27 15:19:09,2.014s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-27 15:19:09,2021-08-27 15:19:10,1.013s,PASSED
+"scrollToElement(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Nomor Kartu Identitas_identity_number""), 30)",Chrome 92.0.4515.159,,,2021-08-27 15:19:10,2021-08-27 15:19:11,0.331s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-27 15:19:11,2021-08-27 15:19:12,1.005s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Kartu identitas""))",Chrome 92.0.4515.159,,,2021-08-27 15:19:12,2021-08-27 15:19:12,0.366s,PASSED
+"if (Identitas == ""KTP"")",Chrome 92.0.4515.159,,,2021-08-27 15:19:12,2021-08-27 15:19:15,2.337s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-08-27 15:19:15,2021-08-27 15:19:17,2.017s,PASSED
+"uploadFile(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/upload foto katru identitas""), ""D:\MySiloam\Upload foto\download.jpg"")",Chrome 92.0.4515.159,,,2021-08-27 15:19:17,2021-08-27 15:19:17,0.396s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-08-27 15:19:17,2021-08-27 15:19:19,2.003s,PASSED
+"if (PernahBerobat == ""Tidak"")",Chrome 92.0.4515.159,,,2021-08-27 15:19:19,2021-08-27 15:19:46,27.333s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-08-27 15:19:46,2021-08-27 15:19:48,2.003s,PASSED
+"waitForElementVisible(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/tujuan pemeriksaan""), 30)",Chrome 92.0.4515.159,,,2021-08-27 15:19:48,2021-08-27 15:19:49,0.322s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-27 15:19:49,2021-08-27 15:19:50,1.015s,PASSED
+"scrollToElement(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/tujuan pemeriksaan""), 20)",Chrome 92.0.4515.159,,,2021-08-27 15:19:50,2021-08-27 15:19:50,0.332s,PASSED
+"if (TujuanPemeriksaan == ""Rencana tindakan"")",Chrome 92.0.4515.159,,,2021-08-27 15:19:50,2021-08-27 15:19:50,0.000s,PASSED
+"else if (TujuanPemeriksaan == ""Rencana bepergian"")",Chrome 92.0.4515.159,,,2021-08-27 15:19:50,2021-08-27 15:19:50,0.000s,PASSED
+"else if (TujuanPemeriksaan == ""Follow up post covid"")",Chrome 92.0.4515.159,,,2021-08-27 15:19:50,2021-08-27 15:19:50,0.000s,PASSED
+else,Chrome 92.0.4515.159,,,2021-08-27 15:19:50,2021-08-27 15:19:54,3.812s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-27 15:19:54,2021-08-27 15:19:55,1.016s,PASSED
+"scrollToElement(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Pekerjaan_occupation""), 30)",Chrome 92.0.4515.159,,,2021-08-27 15:19:55,2021-08-27 15:19:55,0.334s,PASSED
+"waitForElementVisible(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Pekerjaan_occupation""), 30)",Chrome 92.0.4515.159,,,2021-08-27 15:19:55,2021-08-27 15:19:55,0.331s,PASSED
+"setText(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Pekerjaan_occupation""), Pekerjaan)",Chrome 92.0.4515.159,,,2021-08-27 15:19:55,2021-08-27 15:19:57,1.104s,PASSED
+"setText(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Nama Orang Tua_parent_name""), Namaortu)",Chrome 92.0.4515.159,,,2021-08-27 15:19:57,2021-08-27 15:19:57,0.816s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-27 15:19:57,2021-08-27 15:19:58,1.011s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Klik provinsi""))",Chrome 92.0.4515.159,,,2021-08-27 15:19:58,2021-08-27 15:19:59,0.375s,PASSED
+"setText(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Provinsi_state_id""), Provinsi)",Chrome 92.0.4515.159,,,2021-08-27 15:19:59,2021-08-27 15:20:00,0.801s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Pilih provinsi""))",Chrome 92.0.4515.159,,,2021-08-27 15:20:00,2021-08-27 15:20:00,0.508s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-27 15:20:00,2021-08-27 15:20:01,1.005s,PASSED
+"setText(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_RT_rt_number""), RT)",Chrome 92.0.4515.159,,,2021-08-27 15:20:01,2021-08-27 15:20:02,0.722s,PASSED
+"setText(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_RW_rw_number""), RW)",Chrome 92.0.4515.159,,,2021-08-27 15:20:02,2021-08-27 15:20:02,0.718s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Pertanyaan pemeriksaan/Pertanyaan 1 Tidak""))",Chrome 92.0.4515.159,,,2021-08-27 15:20:02,2021-08-27 15:20:03,0.415s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Pertanyaan pemeriksaan/Pertanyaan 2 Tidak""))",Chrome 92.0.4515.159,,,2021-08-27 15:20:03,2021-08-27 15:20:03,0.388s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Pertanyaan pemeriksaan/Pertanyaan 3 Tidak""))",Chrome 92.0.4515.159,,,2021-08-27 15:20:03,2021-08-27 15:20:04,0.391s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Pertanyaan pemeriksaan/Pertanyaan 4 Tidak""))",Chrome 92.0.4515.159,,,2021-08-27 15:20:04,2021-08-27 15:20:04,0.377s,PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 92.0.4515.159,,,2021-08-27 15:20:04,2021-08-27 15:20:04,0.013s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-08-27 15:20:04,2021-08-27 15:20:06,2.004s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/button_lanjut PE form""))",Chrome 92.0.4515.159,,,2021-08-27 15:20:06,2021-08-27 15:20:07,0.405s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-27 15:20:07,2021-08-27 15:20:08,1.009s,PASSED
+"waitForElementVisible(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/header pembayaran""), 120)",Chrome 92.0.4515.159,,,2021-08-27 15:20:08,2021-08-27 15:20:08,0.350s,PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 92.0.4515.159,,,2021-08-27 15:20:08,2021-08-27 15:20:08,0.024s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/isAgree""))",Chrome 92.0.4515.159,,,2021-08-27 15:20:08,2021-08-27 15:20:08,0.359s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/isConsent""))",Chrome 92.0.4515.159,,,2021-08-27 15:20:08,2021-08-27 15:20:09,0.575s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-27 15:20:09,2021-08-27 15:20:10,1.007s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/button_Kirim""))",Chrome 92.0.4515.159,,,2021-08-27 15:20:10,2021-08-27 15:20:10,0.361s,PASSED
+"click(findTestObject(""Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/h3_51E7D3""))",Chrome 92.0.4515.159,,,2021-08-27 15:20:10,2021-08-27 15:20:21,11.046s,PASSED

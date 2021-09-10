@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/identitas/klik kartu identitas",
+      "brokenLocator": "//input[@name\u003d\u0027nid\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210901_154333/Run Pre-regist OPD/Pre-regist OPD/20210901_154333/Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/identitas/klik kartu identitas_position.png"
+    }
+  ]
+}

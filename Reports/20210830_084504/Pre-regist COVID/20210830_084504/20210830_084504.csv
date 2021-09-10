@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre-regist COVID,,,,2021-08-30 08:45:14,2021-08-30 08:45:17,2.976s,ERROR
+,,,,,,,
+Test Cases/Pre-regist Covid/linktree,,,,2021-08-30 08:45:16,2021-08-30 08:45:17,0.471s,ERROR

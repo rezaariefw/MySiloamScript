@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pre-regist OPD" time="38.896" tests="1" failures="0" errors="0">
+   <testsuite name="Pre-regist OPD" tests="1" failures="0" errors="0" time="38.896" skipped="0" timestamp="2021-09-02 08:44:09" hostname="rezaa - LAPTOP-L0M8DJBN.local" id="Test Suites/Run Pre-regist OPD/Pre-regist OPD">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MySiloam\\Reports\\20210902_084355\\Run Pre-regist OPD\\Pre-regist OPD\\20210902_084355"/>
+         <property name="logFiles" value="D:\\MySiloam\\Reports\\20210902_084355\\Run Pre-regist OPD\\Pre-regist OPD\\20210902_084355\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rezaa - LAPTOP-L0M8DJBN.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 92.0.4515.159"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="2a327d67aabf3246d4c63d8fb7496871"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Pre-regis OPD/FO OPD" time="37.61" classname="Test Cases/Pre-regis OPD/FO OPD" status="PASSED">
+         <system-out><![CDATA[2021-09-02 08:44:09 - [TEST_CASE][PASSED] - Test Cases/Pre-regis OPD/FO OPD: Test Cases/Pre-regis OPD/FO OPD
+
+2021-09-02 08:44:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-02 08:44:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-02 08:44:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-02 08:44:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-02 08:44:11 - [TEST_STEP][PASSED] - navigateToUrl("http://10.85.139.13:1252/pre-registration"): Navigate to 'http://10.85.139.13:1252/pre-registration' successfully
+
+2021-09-02 08:44:13 - [MESSAGE][PASSED] - Navigate to 'http://10.85.139.13:1252/pre-registration' successfully
+
+2021-09-02 08:44:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-02 08:44:13 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-02 08:44:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pre-regist OPD/FO/button_Sign In FO OPD"), 5): Object 'Object Repository/Pre-regist OPD/FO/button_Sign In FO OPD' is visible
+
+2021-09-02 08:44:35 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-regist OPD/FO/button_Sign In FO OPD' is visible
+
+2021-09-02 08:44:35 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist OPD/FO/input_Username_username FO OPD"), Username): Text 'albert.aswindra' is set on object 'Object Repository/Pre-regist OPD/FO/input_Username_username FO OPD'
+
+2021-09-02 08:44:35 - [MESSAGE][PASSED] - Text 'albert.aswindra' is set on object 'Object Repository/Pre-regist OPD/FO/input_Username_username FO OPD'
+
+2021-09-02 08:44:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-09-02 08:44:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-09-02 08:44:36 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist OPD/FO/input_Password_password FO OPD"), Password): Text 'al12345678' is set on object 'Object Repository/Pre-regist OPD/FO/input_Password_password FO OPD'
+
+2021-09-02 08:44:37 - [MESSAGE][PASSED] - Text 'al12345678' is set on object 'Object Repository/Pre-regist OPD/FO/input_Password_password FO OPD'
+
+2021-09-02 08:44:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-09-02 08:44:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-09-02 08:44:38 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist OPD/FO/button_Sign In FO OPD")): Object: 'Object Repository/Pre-regist OPD/FO/button_Sign In FO OPD' is clicked on
+
+2021-09-02 08:44:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/FO/button_Sign In FO OPD' is clicked on
+
+2021-09-02 08:44:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pre-regist OPD/FO/input name FO"), 120): Object 'Object Repository/Pre-regist OPD/FO/input name FO' is visible
+
+2021-09-02 08:44:40 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-regist OPD/FO/input name FO' is visible
+
+2021-09-02 08:44:40 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist OPD/FO/delete tanggal FO")): Object: 'Object Repository/Pre-regist OPD/FO/delete tanggal FO' is clicked on
+
+2021-09-02 08:44:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/FO/delete tanggal FO' is clicked on
+
+2021-09-02 08:44:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-09-02 08:44:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-09-02 08:44:42 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist OPD/FO/input tanggal FO"), TanggalFO): Text '01/09/2021 - 30/09/2021' is set on object 'Object Repository/Pre-regist OPD/FO/input tanggal FO'
+
+2021-09-02 08:44:42 - [MESSAGE][PASSED] - Text '01/09/2021 - 30/09/2021' is set on object 'Object Repository/Pre-regist OPD/FO/input tanggal FO'
+
+2021-09-02 08:44:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-09-02 08:44:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-09-02 08:44:43 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist OPD/FO/input name FO"), NamaLengkap): Text 'data test diri sendiri tujuh' is set on object 'Object Repository/Pre-regist OPD/FO/input name FO'
+
+2021-09-02 08:44:45 - [MESSAGE][PASSED] - Text 'data test diri sendiri tujuh' is set on object 'Object Repository/Pre-regist OPD/FO/input name FO'
+
+2021-09-02 08:44:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-09-02 08:44:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-09-02 08:44:46 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist OPD/FO/klik update FO")): Object: 'Object Repository/Pre-regist OPD/FO/klik update FO' is clicked on
+
+2021-09-02 08:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/FO/klik update FO' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-02 08:44:09 - [TEST_SUITE][PASSED] - Pre-regist OPD: Test Cases/Pre-regis OPD/FO OPD]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

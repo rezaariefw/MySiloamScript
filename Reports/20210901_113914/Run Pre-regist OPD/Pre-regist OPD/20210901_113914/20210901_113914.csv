@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre-regist OPD,,,,2021-09-01 11:39:28,2021-09-01 11:39:29,1.003s,FAILED
+,,,,,,,
+Test Cases/Pre-regis OPD/Call Center OPD,,,,2021-09-01 11:39:29,2021-09-01 11:39:29,0.033s,FAILED
+"openBrowser("""")",,,,2021-09-01 11:39:29,2021-09-01 11:39:29,0.001s,NOT_RUN
+"navigateToUrl(""http://10.85.139.13:4304/appointment-list"")",,,,2021-09-01 11:39:29,2021-09-01 11:39:29,0.011s,FAILED

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>klik update FO</name>
+   <tag></tag>
+   <elementGuidId>3cf59699-38e7-423c-b8f0-0d5b751e491b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container-fluid&quot;]/app-page-pre-registration[1]/div[@class=&quot;d-flex justify-content-start&quot;]/div[@class=&quot;fo_content_container&quot;]/app-widget-pre-registration[1]/div[@class=&quot;fo_container_list shadow-4&quot;]/table[@class=&quot;table table-bordered&quot;]/tbody[1]/tr[@class=&quot;fo_header_grey filter-row&quot;]/td[4]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]</value>
+   </webElementXpaths>
+</WebElementEntity>

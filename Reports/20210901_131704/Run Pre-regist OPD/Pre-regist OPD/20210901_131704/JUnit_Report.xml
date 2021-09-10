@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pre-regist OPD" time="69.367" tests="1" failures="0" errors="0">
+   <testsuite name="Pre-regist OPD" tests="1" failures="0" errors="0" time="69.367" skipped="0" timestamp="2021-09-01 13:17:20" hostname="rezaa - LAPTOP-L0M8DJBN.local" id="Test Suites/Run Pre-regist OPD/Pre-regist OPD">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MySiloam\\Reports\\20210901_131704\\Run Pre-regist OPD\\Pre-regist OPD\\20210901_131704"/>
+         <property name="logFiles" value="D:\\MySiloam\\Reports\\20210901_131704\\Run Pre-regist OPD\\Pre-regist OPD\\20210901_131704\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rezaa - LAPTOP-L0M8DJBN.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 92.0.4515.159"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="d4f39663a04ed3819258c392f2df46af"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Pre-regis OPD/appointment microsite" time="68.043" classname="Test Cases/Pre-regis OPD/appointment microsite" status="PASSED">
+         <system-out><![CDATA[2021-09-01 13:17:20 - [TEST_CASE][PASSED] - Test Cases/Pre-regis OPD/appointment microsite: Test Cases/Pre-regis OPD/appointment microsite
+
+2021-09-01 13:17:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-01 13:17:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-01 13:17:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-01 13:17:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-01 13:17:23 - [TEST_STEP][PASSED] - navigateToUrl("http://10.85.139.12/appointment-microsite/"): Navigate to 'http://10.85.139.12/appointment-microsite/' successfully
+
+2021-09-01 13:17:27 - [MESSAGE][PASSED] - Navigate to 'http://10.85.139.12/appointment-microsite/' successfully
+
+2021-09-01 13:17:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-01 13:17:27 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-01 13:17:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/button_Cari"), 120): Object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/button_Cari' is visible
+
+2021-09-01 13:17:28 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/button_Cari' is visible
+
+2021-09-01 13:17:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-09-01 13:17:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-09-01 13:17:29 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/input_Nama Dokter")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/input_Nama Dokter' is clicked on
+
+2021-09-01 13:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/input_Nama Dokter' is clicked on
+
+2021-09-01 13:17:29 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/input_Nama Dokter"), NamaDokter): Text 'john c. p. butar' is set on object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/input_Nama Dokter'
+
+2021-09-01 13:17:30 - [MESSAGE][PASSED] - Text 'john c. p. butar' is set on object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/input_Nama Dokter'
+
+2021-09-01 13:17:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-09-01 13:17:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-09-01 13:17:32 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/klik nama dokter")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/klik nama dokter' is clicked on
+
+2021-09-01 13:17:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/klik nama dokter' is clicked on
+
+2021-09-01 13:17:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-09-01 13:17:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-09-01 13:17:35 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/button_Cari")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/button_Cari' is clicked on
+
+2021-09-01 13:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/button_Cari' is clicked on
+
+2021-09-01 13:17:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal Praktek Dr. dr. John C. P._b32dd8/button_Buat Janji Temu"), 120): Object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal Praktek Dr. dr. John C. P._b32dd8/button_Buat Janji Temu' is visible
+
+2021-09-01 13:17:36 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal Praktek Dr. dr. John C. P._b32dd8/button_Buat Janji Temu' is visible
+
+2021-09-01 13:17:36 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal Praktek Dr. dr. John C. P._b32dd8/button_Buat Janji Temu")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal Praktek Dr. dr. John C. P._b32dd8/button_Buat Janji Temu' is clicked on
+
+2021-09-01 13:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Page_Cari Jadwal Praktek Dr. dr. John C. P._b32dd8/button_Buat Janji Temu' is clicked on
+
+2021-09-01 13:17:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-09-01 13:17:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-09-01 13:17:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih tanggal"), 30): Object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih tanggal' is visible
+
+2021-09-01 13:17:38 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih tanggal' is visible
+
+2021-09-01 13:17:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih tanggal"), 30): Scroll to object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih tanggal' successfully
+
+2021-09-01 13:17:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih tanggal' successfully
+
+2021-09-01 13:17:38 - [TEST_STEP][PASSED] - if (TanggalJanji != "0"): Delayed 1 second(s)
+
+2021-09-01 13:17:38 - [TEST_STEP][PASSED] - if (TanggalJanji == "1"): null
+
+2021-09-01 13:17:38 - [TEST_STEP][PASSED] - else if (TanggalJanji == "2"): Delayed 1 second(s)
+
+2021-09-01 13:17:38 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Tanggal/button_2")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Tanggal/button_2' is clicked on
+
+2021-09-01 13:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/Tanggal/button_2' is clicked on
+
+2021-09-01 13:17:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-09-01 13:17:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-09-01 13:17:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-09-01 13:17:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-09-01 13:17:40 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih jam")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih jam' is clicked on
+
+2021-09-01 13:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih jam' is clicked on
+
+2021-09-01 13:17:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Lanjut")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Lanjut' is clicked on
+
+2021-09-01 13:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Lanjut' is clicked on
+
+2021-09-01 13:17:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-09-01 13:17:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-09-01 13:17:42 - [TEST_STEP][PASSED] - if (Reservasi == "Orang lain"): Delayed 3 second(s)
+
+2021-09-01 13:17:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-09-01 13:17:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-09-01 13:17:43 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input_nama lengkap"), NamaLengkap): Text 'data test diri sendiri' is set on object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input_nama lengkap'
+
+2021-09-01 13:17:44 - [MESSAGE][PASSED] - Text 'data test diri sendiri' is set on object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input_nama lengkap'
+
+2021-09-01 13:17:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input__date")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input__date' is clicked on
+
+2021-09-01 13:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input__date' is clicked on
+
+2021-09-01 13:17:44 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input tanggal lahir"), TanggalLahir): Text '1' is set on object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input tanggal lahir'
+
+2021-09-01 13:17:45 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input tanggal lahir'
+
+2021-09-01 13:17:45 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/klik tanggal lahir")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/klik tanggal lahir' is clicked on
+
+2021-09-01 13:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/klik tanggal lahir' is clicked on
+
+2021-09-01 13:17:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input__month")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input__month' is clicked on
+
+2021-09-01 13:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input__month' is clicked on
+
+2021-09-01 13:17:46 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input bulan lahir"), BulanLahir): Text 'Januari' is set on object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input bulan lahir'
+
+2021-09-01 13:17:47 - [MESSAGE][PASSED] - Text 'Januari' is set on object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input bulan lahir'
+
+2021-09-01 13:17:47 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih bulan lahir")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih bulan lahir' is clicked on
+
+2021-09-01 13:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih bulan lahir' is clicked on
+
+2021-09-01 13:17:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input__year")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input__year' is clicked on
+
+2021-09-01 13:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input__year' is clicked on
+
+2021-09-01 13:17:47 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input_tahun lahir"), TahunLahir): Text '1991' is set on object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input_tahun lahir'
+
+2021-09-01 13:17:48 - [MESSAGE][PASSED] - Text '1991' is set on object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input_tahun lahir'
+
+2021-09-01 13:17:48 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih tahun lahir")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih tahun lahir' is clicked on
+
+2021-09-01 13:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih tahun lahir' is clicked on
+
+2021-09-01 13:17:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input__email"), Email): Text 'rawiyarta@gmail.com' is set on object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input__email'
+
+2021-09-01 13:17:49 - [MESSAGE][PASSED] - Text 'rawiyarta@gmail.com' is set on object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input__email'
+
+2021-09-01 13:17:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input_land Islands_telephone"), NoHP): Text '8125051512' is set on object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input_land Islands_telephone'
+
+2021-09-01 13:17:50 - [MESSAGE][PASSED] - Text '8125051512' is set on object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/input_land Islands_telephone'
+
+2021-09-01 13:17:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Lanjut_1")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Lanjut_1' is clicked on
+
+2021-09-01 13:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Lanjut_1' is clicked on
+
+2021-09-01 13:17:51 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/saya menyatakan")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/saya menyatakan' is clicked on
+
+2021-09-01 13:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/saya menyatakan' is clicked on
+
+2021-09-01 13:17:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Konfirmasi")): Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Konfirmasi' is clicked on
+
+2021-09-01 13:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Konfirmasi' is clicked on
+
+2021-09-01 13:17:52 - [TEST_STEP][PASSED] - waitForElementNotVisible(findTestObject("Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Konfirmasi"), 15): Object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Konfirmasi' is visible after 15 second(s)
+
+2021-09-01 13:18:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='appointment-done']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-09-01 13:18:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Konfirmasi'. Try using Self-healing.
+
+2021-09-01 13:18:08 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//button[@id='appointment-done']'.
+
+2021-09-01 13:18:08 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='modal']/div/div[2]/div[2]/div/div[2]/button'.
+
+2021-09-01 13:18:09 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Kembali'])[2]/following::button[1]'.
+
+2021-09-01 13:18:09 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Selasa, 31 Agustus 2021, 08:00 - 08:15'])[2]/following::button[2]'.
+
+2021-09-01 13:18:09 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Penghargaan'])[1]/preceding::button[1]'.
+
+2021-09-01 13:18:10 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/MySiloam/Reports/Self-healing/Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Konfirmasi_neighbor.png
+
+2021-09-01 13:18:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Konfirmasi' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Penghargaan'])[1]/preceding::button[1]'.
+
+2021-09-01 13:18:25 - [MESSAGE][WARNING] - Object 'Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Konfirmasi' is visible after 15 second(s)
+
+2021-09-01 13:18:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-09-01 13:18:28 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-01 13:17:20 - [TEST_SUITE][PASSED] - Pre-regist OPD: Test Cases/Pre-regis OPD/appointment microsite]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre-regist COVID,Chrome 92.0.4515.159,,,2021-09-06 15:01:51,2021-09-06 15:07:35,5m - 43.827s,PASSED
+,,,,,,,
+Test Cases/Pre-regist Covid/Linktree - FO,Chrome 92.0.4515.159,,,2021-09-06 15:01:52,2021-09-06 15:04:21,2m - 29.631s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/1. linktree - (Pilih Paket, Data Diri)""), [""NamaRS"":NamaRS, ""NamaSID"":NamaSID, ""NoHP"":NoHP, ""Email"":Email, ""TanggalKunjungan"":TanggalKunjungan, ""WaktuKunjungan"":WaktuKunjungan, ... ], STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-09-06 15:01:52,2021-09-06 15:03:17,1m - 24.938s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-09-06 15:03:17,2021-09-06 15:03:19,2.002s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/2. linktree - (PE Form, pembayaran)""), [""PernahBerobat"":PernahBerobat, ""TujuanPemeriksaan"":TujuanPemeriksaan, ""Pekerjaan"":Pekerjaan, ""Namaortu"":Namaortu, ""Provinsi"":Provinsi, ... ], STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-09-06 15:03:19,2021-09-06 15:04:19,59.992s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-09-06 15:04:19,2021-09-06 15:04:21,2.010s,PASSED
+,,,,,,,
+Test Cases/Pre-regist Covid/Linktree - FO,Chrome 92.0.4515.159,,,2021-09-06 15:05:09,2021-09-06 15:07:35,2m - 25.758s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/1. linktree - (Pilih Paket, Data Diri)""), [""NamaRS"":NamaRS, ""NamaSID"":NamaSID, ""NoHP"":NoHP, ""Email"":Email, ""TanggalKunjungan"":TanggalKunjungan, ""WaktuKunjungan"":WaktuKunjungan, ... ], STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-09-06 15:05:09,2021-09-06 15:06:24,1m - 14.641s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-09-06 15:06:24,2021-09-06 15:06:26,2.011s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/2. linktree - (PE Form, pembayaran)""), [""PernahBerobat"":PernahBerobat, ""TujuanPemeriksaan"":TujuanPemeriksaan, ""Pekerjaan"":Pekerjaan, ""Namaortu"":Namaortu, ""Provinsi"":Provinsi, ... ], STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-09-06 15:06:26,2021-09-06 15:07:33,1m - 7.088s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-09-06 15:07:33,2021-09-06 15:07:35,2.009s,PASSED

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre-regist OPD,,,,2021-09-07 15:10:06,2021-09-07 15:10:08,1.579s,FAILED
+,,,,,,,
+Test Cases/Pre-regis OPD (pending)/FO/FO - patient data,,,,2021-09-07 15:10:08,2021-09-07 15:10:08,0.030s,FAILED
+"openBrowser("""")",,,,2021-09-07 15:10:08,2021-09-07 15:10:08,0.001s,NOT_RUN
+"navigateToUrl(""http://10.85.139.13:1252/pre-registration"")",,,,2021-09-07 15:10:08,2021-09-07 15:10:08,0.009s,FAILED

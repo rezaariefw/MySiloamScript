@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Pre-regist OPD/FO/button_Sign In FO OPD",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Password\u0027])[1]/following::button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210907_151848/Run Pre-regist OPD/Pre-regist OPD/20210907_151848/Object Repository/Pre-regist OPD/FO/button_Sign In FO OPD_position.png"
+    }
+  ]
+}

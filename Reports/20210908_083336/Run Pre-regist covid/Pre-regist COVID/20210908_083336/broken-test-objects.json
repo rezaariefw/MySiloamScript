@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Nama Lengkap(Sesuai ID)_name",
+      "brokenLocator": "//input[@name\u003d\u0027name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210908_083336/Run Pre-regist covid/Pre-regist COVID/20210908_083336/Object Repository/Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/Nama Lengkap(Sesuai ID)_name_position.png"
+    }
+  ]
+}

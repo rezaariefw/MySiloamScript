@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre-regist OPD,Chrome 92.0.4515.159,,,2021-08-30 15:32:27,2021-08-30 15:32:50,22.522s,FAILED
+,,,,,,,
+Test Cases/Pre-regis OPD/appointment microsite,Chrome 92.0.4515.159,,,2021-08-30 15:32:46,2021-08-30 15:32:50,3.990s,FAILED
+"openBrowser("""")",Chrome 92.0.4515.159,,,2021-08-30 15:32:46,2021-08-30 15:32:48,1.719s,PASSED
+"navigateToUrl(""http://10.85.139.12/appointment-microsite/"")",Chrome 92.0.4515.159,,,2021-08-30 15:32:48,2021-08-30 15:32:49,1.932s,PASSED
+maximizeWindow(),Chrome 92.0.4515.159,,,2021-08-30 15:32:49,2021-08-30 15:32:50,0.151s,PASSED
+"waitForElementVisible(findTestObject(""Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/input_Nama Dokter""), 120)",Chrome 92.0.4515.159,,,2021-08-30 15:32:50,2021-08-30 15:32:50,0.172s,FAILED

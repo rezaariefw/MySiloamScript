@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre-regist COVID,Chrome 92.0.4515.159,,,2021-09-02 10:39:13,2021-09-02 10:41:45,2m - 31.831s,PASSED
+,,,,,,,
+Test Cases/Pre-regist Covid/Linktree - FO,Chrome 92.0.4515.159,,,2021-09-02 10:39:13,2021-09-02 10:41:45,2m - 31.293s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/1. linktree - (Pilih Paket, Data Diri)""), [""NamaRS"":NamaRS, ""NamaSID"":NamaSID, ""NoHP"":NoHP, ""Email"":Email, ""TanggalKunjungan"":TanggalKunjungan, ""WaktuKunjungan"":WaktuKunjungan, ... ], STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-09-02 10:39:14,2021-09-02 10:40:19,1m - 5.149s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-09-02 10:40:19,2021-09-02 10:40:21,2.011s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/2. linktree - (PE Form, pembayaran)""), [""PernahBerobat"":PernahBerobat, ""TujuanPemeriksaan"":TujuanPemeriksaan, ""Pekerjaan"":Pekerjaan, ""Namaortu"":Namaortu, ""Provinsi"":Provinsi, ... ], STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-09-02 10:40:21,2021-09-02 10:41:43,1m - 21.312s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-09-02 10:41:43,2021-09-02 10:41:45,2.012s,PASSED

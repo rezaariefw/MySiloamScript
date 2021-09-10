@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre-regist OPD,Chrome 92.0.4515.159,,,2021-09-01 15:03:28,2021-09-01 15:04:26,58.294s,PASSED
+,,,,,,,
+Test Cases/Pre-regis OPD/Call Center OPD,Chrome 92.0.4515.159,,,2021-09-01 15:03:28,2021-09-01 15:04:26,58.018s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.159,,,2021-09-01 15:03:29,2021-09-01 15:03:31,2.043s,PASSED
+"navigateToUrl(""http://10.85.139.13:4304/appointment-list"")",Chrome 92.0.4515.159,,,2021-09-01 15:03:31,2021-09-01 15:03:33,2.421s,PASSED
+maximizeWindow(),Chrome 92.0.4515.159,,,2021-09-01 15:03:33,2021-09-01 15:03:33,0.155s,PASSED
+"waitForPageLoad(120, STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-09-01 15:03:33,2021-09-01 15:03:34,0.128s,PASSED
+"setText(findTestObject(""Object Repository/Pre-regist OPD/FO/input_Username_username FO OPD""), Username)",Chrome 92.0.4515.159,,,2021-09-01 15:03:34,2021-09-01 15:03:55,21.182s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-09-01 15:03:55,2021-09-01 15:03:56,1.020s,PASSED
+"setText(findTestObject(""Object Repository/Pre-regist OPD/FO/input_Password_password FO OPD""), Password)",Chrome 92.0.4515.159,,,2021-09-01 15:03:56,2021-09-01 15:03:56,0.711s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-09-01 15:03:56,2021-09-01 15:03:57,1.017s,PASSED
+"click(findTestObject(""Object Repository/Pre-regist OPD/CC/button_Sign InCC""))",Chrome 92.0.4515.159,,,2021-09-01 15:03:57,2021-09-01 15:03:58,0.354s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-09-01 15:03:58,2021-09-01 15:04:00,2.006s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Pre-regist OPD/CC/input_Hospital_ng-untouched ng-pristine ng-valid""), 120)",Chrome 92.0.4515.159,,,2021-09-01 15:04:00,2021-09-01 15:04:00,0.417s,PASSED
+"click(findTestObject(""Object Repository/Pre-regist OPD/CC/button_Appointment List""))",Chrome 92.0.4515.159,,,2021-09-01 15:04:00,2021-09-01 15:04:00,0.001s,NOT_RUN
+delay(2),Chrome 92.0.4515.159,,,2021-09-01 15:04:00,2021-09-01 15:04:00,0.000s,NOT_RUN
+"click(findTestObject(""Object Repository/Pre-regist OPD/CC/input_Hospital_ng-untouched ng-pristine ng-valid""))",Chrome 92.0.4515.159,,,2021-09-01 15:04:00,2021-09-01 15:04:00,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/Pre-regist OPD/CC/input_Hospital_ng-untouched ng-pristine ng-valid""), NamaRSCC)",Chrome 92.0.4515.159,,,2021-09-01 15:04:00,2021-09-01 15:04:00,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/Pre-regist OPD/CC/pilih RS""))",Chrome 92.0.4515.159,,,2021-09-01 15:04:00,2021-09-01 15:04:00,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/Pre-regist OPD/CC/hapus tanggal appointment list""))",Chrome 92.0.4515.159,,,2021-09-01 15:04:00,2021-09-01 15:04:00,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/Pre-regist OPD/CC/input_Appointment date_selection ng-untouch_b13c69""), TanggalCC)",Chrome 92.0.4515.159,,,2021-09-01 15:04:00,2021-09-01 15:04:00,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/Pre-regist OPD/CC/input_Action_filter-by-name-appointment-list""), NamaLengkap)",Chrome 92.0.4515.159,,,2021-09-01 15:04:00,2021-09-01 15:04:00,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/Pre-regist OPD/CC/td konfirmasi""))",Chrome 92.0.4515.159,,,2021-09-01 15:04:00,2021-09-01 15:04:00,0.000s,NOT_RUN
+delay(15),Chrome 92.0.4515.159,,,2021-09-01 15:04:00,2021-09-01 15:04:00,0.001s,NOT_RUN
+"if (Reservasi == ""Orang lain"" || Reservasi == ""Diri Sendiri"" && PernahBerobat == ""Pernah"")",Chrome 92.0.4515.159,,,2021-09-01 15:04:00,2021-09-01 15:04:26,26.148s,PASSED

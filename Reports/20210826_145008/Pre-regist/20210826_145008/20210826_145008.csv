@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre-regist,Chrome 92.0.4515.159,,,2021-08-26 14:50:19,2021-08-26 14:50:33,14.277s,FAILED
+,,,,,,,
+Test Cases/Pre-regist Covid/linktree,Chrome 92.0.4515.159,,,2021-08-26 14:50:30,2021-08-26 14:50:33,2.879s,FAILED
+"openBrowser("""")",Chrome 92.0.4515.159,,,2021-08-26 14:50:30,2021-08-26 14:50:33,2.284s,PASSED
+"navigateToUrl(""https://mysiloam-api-staging.siloamhospitals.com/linktree/"")",Chrome 92.0.4515.159,,,2021-08-26 14:50:33,2021-08-26 14:50:33,0.370s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Pre-regist Covid/linktree/div_Select""), 120)",Chrome 92.0.4515.159,,,2021-08-26 14:50:33,2021-08-26 14:50:33,0.184s,FAILED

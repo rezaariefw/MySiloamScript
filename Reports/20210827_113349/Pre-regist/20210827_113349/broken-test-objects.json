@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/button_Lanjut",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[12]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/main/div/div/div[2]/div/div[5]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210827_113349/Pre-regist/20210827_113349/Object Repository/Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/button_Lanjut_idRelative.png"
+    }
+  ]
+}

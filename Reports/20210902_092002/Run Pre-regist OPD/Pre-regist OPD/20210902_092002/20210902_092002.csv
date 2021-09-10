@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre-regist OPD,Chrome 92.0.4515.159,,,2021-09-02 09:20:13,2021-09-02 09:20:45,31.732s,FAILED
+,,,,,,,
+Test Cases/Pre-regis OPD/FO/FO - patient data,Chrome 92.0.4515.159,,,2021-09-02 09:20:38,2021-09-02 09:20:45,7.225s,FAILED
+"openBrowser("""")",Chrome 92.0.4515.159,,,2021-09-02 09:20:38,2021-09-02 09:20:40,1.653s,PASSED
+"navigateToUrl(""http://10.85.139.13:1252/pre-registration"")",Chrome 92.0.4515.159,,,2021-09-02 09:20:40,2021-09-02 09:20:45,5.561s,FAILED

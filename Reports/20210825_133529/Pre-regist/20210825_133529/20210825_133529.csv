@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre-regist,,,,2021-08-25 13:35:41,2021-08-25 13:35:44,2.834s,FAILED
+,,,,,,,
+Test Cases/Pre-regist Covid/OP Admin,,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.147s,FAILED
+"openBrowser("""")",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.001s,NOT_RUN
+"navigateToUrl(""http://10.85.139.100:8484/checkup"")",,Link URL,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Login""), 120)",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.001s,NOT_RUN
+maximizeWindow(),,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.001s,NOT_RUN
+delay(2),,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.001s,NOT_RUN
+"setText(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Username_username""), Username)",,"Username
+",,2021-08-25 13:35:44,2021-08-25 13:35:44,0.002s,NOT_RUN
+delay(2),,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+"setText(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Password_password""), Password)",,"Password
+",,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+"click(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Login""))",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+delay(2),,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.002s,NOT_RUN
+"waitForPageLoad(30, STOP_ON_FAILURE)",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Add New Group""), 10)",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+"click(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Add New Group""))",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.001s,NOT_RUN
+"setText(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/group-name""), GroupName)",,group name,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+"selectOptionByValue(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_group type""), GroupType, true)",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.001s,NOT_RUN
+delay(2),,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.001s,NOT_RUN
+"if (Services == ""DT"")",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+delay(2),,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+"click(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/dropdown""))",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.001s,NOT_RUN
+delay(5),,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+"if (Paket == ""Rapid Test"")",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.001s,NOT_RUN
+delay(4),,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.001s,NOT_RUN
+"click(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Body URL""))",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+delay(3),,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+"click(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Save""))",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/div_OKCancel""), 5)",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+"click(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/div_OKCancel""))",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+"waitForElementNotVisible(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/div_OKCancel""), 5)",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+delay(3),,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.001s,NOT_RUN
+"click(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Add Schedule""))",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+delay(2),,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+"selectOptionByValue(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_Hari""), Hari, true)",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+"setText(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Quota Appointment""), Appointment)",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+"setText(findTestObject(""Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Quota Non Appointment""), NonAppointment)",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+delay(3),,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,NOT_RUN
+println(Services),,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.000s,PASSED
+"if (Services == ""nonDT"")",,,,2021-08-25 13:35:44,2021-08-25 13:35:44,0.078s,FAILED

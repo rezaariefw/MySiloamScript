@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/klik kota",
+      "brokenLocator": "//*[@id\u003d\"root\"]/div[1]/div/main/div/div/div[2]/div/div[3]/div[2]/div/div[3]/div[2]/div[3]/div[5]/div/div/div/div/button[2]/span[1]/svg",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027JAKARTA BARAT, KOTA ADMINISTRASI\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210827_083208/Pre-regist/20210827_083209/Object Repository/Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/klik kota_neighbor.png"
+    }
+  ]
+}

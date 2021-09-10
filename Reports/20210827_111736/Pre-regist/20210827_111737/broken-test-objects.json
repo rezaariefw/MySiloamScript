@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Nama Keluarga_form-control",
+      "brokenLocator": "//input[@value\u003d\u0027+62 8\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/main/div/div/div[2]/div/div[3]/div[2]/div/div[3]/div[2]/div[4]/div[3]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210827_111736/Pre-regist/20210827_111737/Object Repository/Pre-regist Covid/linktree/Page_Siloam Hospitals Registration Form/input_Nama Keluarga_form-control_idRelative.png"
+    }
+  ]
+}

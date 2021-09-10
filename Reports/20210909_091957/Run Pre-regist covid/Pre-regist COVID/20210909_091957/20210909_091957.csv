@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre-regist COVID,Chrome 93.0.4577.63,,,2021-09-09 09:20:13,2021-09-09 09:35:04,14m - 51.161s,PASSED
+,,,,,,,
+Test Cases/Pre-regist Covid/Linktree - FO,Chrome 93.0.4577.63,,,2021-09-09 09:20:13,2021-09-09 09:23:07,2m - 53.369s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/1. linktree - (Pilih Paket, Data Diri)""), [""NamaRS"":NamaRS, ""NamaSID"":NamaSID, ""NoHP"":NoHP, ""Email"":Email, ""TanggalKunjungan"":TanggalKunjungan, ""WaktuKunjungan"":WaktuKunjungan, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 09:20:14,2021-09-09 09:21:40,1m - 25.729s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 09:21:40,2021-09-09 09:21:42,2.002s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/2. linktree - (PE Form, pembayaran)""), [""PernahBerobat"":PernahBerobat, ""TujuanPemeriksaan"":TujuanPemeriksaan, ""Pekerjaan"":Pekerjaan, ""Namaortu"":Namaortu, ""Provinsi"":Provinsi, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 09:21:42,2021-09-09 09:23:05,1m - 22.942s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 09:23:05,2021-09-09 09:23:07,2.007s,PASSED
+,,,,,,,
+Test Cases/Pre-regist Covid/Linktree - FO,Chrome 93.0.4577.63,,,2021-09-09 09:23:07,2021-09-09 09:25:49,2m - 42.746s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/1. linktree - (Pilih Paket, Data Diri)""), [""NamaRS"":NamaRS, ""NamaSID"":NamaSID, ""NoHP"":NoHP, ""Email"":Email, ""TanggalKunjungan"":TanggalKunjungan, ""WaktuKunjungan"":WaktuKunjungan, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 09:23:07,2021-09-09 09:24:23,1m - 16.742s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 09:24:23,2021-09-09 09:24:25,2.016s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/2. linktree - (PE Form, pembayaran)""), [""PernahBerobat"":PernahBerobat, ""TujuanPemeriksaan"":TujuanPemeriksaan, ""Pekerjaan"":Pekerjaan, ""Namaortu"":Namaortu, ""Provinsi"":Provinsi, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 09:24:25,2021-09-09 09:25:47,1m - 21.965s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 09:25:47,2021-09-09 09:25:49,2.005s,PASSED
+,,,,,,,
+Test Cases/Pre-regist Covid/Linktree - FO,Chrome 93.0.4577.63,,,2021-09-09 09:25:50,2021-09-09 09:27:57,2m - 7.374s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/1. linktree - (Pilih Paket, Data Diri)""), [""NamaRS"":NamaRS, ""NamaSID"":NamaSID, ""NoHP"":NoHP, ""Email"":Email, ""TanggalKunjungan"":TanggalKunjungan, ""WaktuKunjungan"":WaktuKunjungan, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 09:25:50,2021-09-09 09:26:51,1m - 1.598s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 09:26:51,2021-09-09 09:26:53,2.006s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/2. linktree - (PE Form, pembayaran)""), [""PernahBerobat"":PernahBerobat, ""TujuanPemeriksaan"":TujuanPemeriksaan, ""Pekerjaan"":Pekerjaan, ""Namaortu"":Namaortu, ""Provinsi"":Provinsi, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 09:26:53,2021-09-09 09:27:55,1m - 1.749s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 09:27:55,2021-09-09 09:27:57,2.004s,PASSED
+,,,,,,,
+Test Cases/Pre-regist Covid/Linktree - FO,Chrome 93.0.4577.63,,,2021-09-09 09:27:57,2021-09-09 09:30:03,2m - 6.046s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/1. linktree - (Pilih Paket, Data Diri)""), [""NamaRS"":NamaRS, ""NamaSID"":NamaSID, ""NoHP"":NoHP, ""Email"":Email, ""TanggalKunjungan"":TanggalKunjungan, ""WaktuKunjungan"":WaktuKunjungan, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 09:27:57,2021-09-09 09:28:51,53.837s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 09:28:51,2021-09-09 09:28:53,2.010s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/2. linktree - (PE Form, pembayaran)""), [""PernahBerobat"":PernahBerobat, ""TujuanPemeriksaan"":TujuanPemeriksaan, ""Pekerjaan"":Pekerjaan, ""Namaortu"":Namaortu, ""Provinsi"":Provinsi, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 09:28:53,2021-09-09 09:30:01,1m - 8.171s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 09:30:01,2021-09-09 09:30:03,2.012s,PASSED
+,,,,,,,
+Test Cases/Pre-regist Covid/Linktree - FO,Chrome 93.0.4577.63,,,2021-09-09 09:30:03,2021-09-09 09:32:33,2m - 29.119s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/1. linktree - (Pilih Paket, Data Diri)""), [""NamaRS"":NamaRS, ""NamaSID"":NamaSID, ""NoHP"":NoHP, ""Email"":Email, ""TanggalKunjungan"":TanggalKunjungan, ""WaktuKunjungan"":WaktuKunjungan, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 09:30:03,2021-09-09 09:31:27,1m - 23.995s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 09:31:27,2021-09-09 09:31:29,2.016s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/2. linktree - (PE Form, pembayaran)""), [""PernahBerobat"":PernahBerobat, ""TujuanPemeriksaan"":TujuanPemeriksaan, ""Pekerjaan"":Pekerjaan, ""Namaortu"":Namaortu, ""Provinsi"":Provinsi, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 09:31:29,2021-09-09 09:32:31,1m - 1.075s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 09:32:31,2021-09-09 09:32:33,2.017s,PASSED
+,,,,,,,
+Test Cases/Pre-regist Covid/Linktree - FO,Chrome 93.0.4577.63,,,2021-09-09 09:32:33,2021-09-09 09:35:04,2m - 31.134s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/1. linktree - (Pilih Paket, Data Diri)""), [""NamaRS"":NamaRS, ""NamaSID"":NamaSID, ""NoHP"":NoHP, ""Email"":Email, ""TanggalKunjungan"":TanggalKunjungan, ""WaktuKunjungan"":WaktuKunjungan, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 09:32:33,2021-09-09 09:33:49,1m - 16.363s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 09:33:49,2021-09-09 09:33:51,2.006s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/2. linktree - (PE Form, pembayaran)""), [""PernahBerobat"":PernahBerobat, ""TujuanPemeriksaan"":TujuanPemeriksaan, ""Pekerjaan"":Pekerjaan, ""Namaortu"":Namaortu, ""Provinsi"":Provinsi, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 09:33:51,2021-09-09 09:35:02,1m - 10.744s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 09:35:02,2021-09-09 09:35:04,2.004s,PASSED

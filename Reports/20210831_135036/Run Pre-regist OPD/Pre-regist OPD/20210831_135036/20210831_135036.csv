@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre-regist OPD,Chrome 92.0.4515.159,,,2021-08-31 13:50:52,2021-08-31 13:51:20,27.526s,PASSED
+,,,,,,,
+Test Cases/Pre-regis OPD/appointment microsite,Chrome 92.0.4515.159,,,2021-08-31 13:50:53,2021-08-31 13:51:20,27.199s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.159,,,2021-08-31 13:50:53,2021-08-31 13:50:55,2.006s,PASSED
+"navigateToUrl(""http://10.85.139.12/appointment-microsite/"")",Chrome 92.0.4515.159,,,2021-08-31 13:50:55,2021-08-31 13:50:57,1.511s,PASSED
+maximizeWindow(),Chrome 92.0.4515.159,,,2021-08-31 13:50:57,2021-08-31 13:50:57,0.162s,PASSED
+"waitForElementVisible(findTestObject(""Pre-regist OPD/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/button_Cari""), 120)",Chrome 92.0.4515.159,,,2021-08-31 13:50:57,2021-08-31 13:50:57,0.531s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-31 13:50:57,2021-08-31 13:50:58,1.032s,PASSED
+"click(findTestObject(""Object Repository/Pre-regist OPD/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/input_Nama Dokter""))",Chrome 92.0.4515.159,,,2021-08-31 13:50:58,2021-08-31 13:50:59,0.366s,PASSED
+"setText(findTestObject(""Object Repository/Pre-regist OPD/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/input_Nama Dokter""), NamaDokter)",Chrome 92.0.4515.159,,,2021-08-31 13:50:59,2021-08-31 13:51:00,0.804s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-08-31 13:51:00,2021-08-31 13:51:02,2.013s,PASSED
+"click(findTestObject(""Pre-regist OPD/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/klik nama dokter""))",Chrome 92.0.4515.159,,,2021-08-31 13:51:02,2021-08-31 13:51:02,0.365s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-08-31 13:51:02,2021-08-31 13:51:04,2.017s,PASSED
+"click(findTestObject(""Object Repository/Pre-regist OPD/Page_Cari Jadwal  Buat Janji dengan Dokter _791af4/button_Cari""))",Chrome 92.0.4515.159,,,2021-08-31 13:51:04,2021-08-31 13:51:04,0.362s,PASSED
+"waitForElementVisible(findTestObject(""Pre-regist OPD/Page_Cari Jadwal Praktek Dr. dr. John C. P._b32dd8/button_Buat Janji Temu""), 120)",Chrome 92.0.4515.159,,,2021-08-31 13:51:04,2021-08-31 13:51:05,0.790s,PASSED
+"click(findTestObject(""Object Repository/Pre-regist OPD/Page_Cari Jadwal Praktek Dr. dr. John C. P._b32dd8/button_Buat Janji Temu""))",Chrome 92.0.4515.159,,,2021-08-31 13:51:05,2021-08-31 13:51:05,0.345s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-31 13:51:05,2021-08-31 13:51:06,1.013s,PASSED
+"waitForElementVisible(findTestObject(""Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih tanggal""), 30)",Chrome 92.0.4515.159,,,2021-08-31 13:51:06,2021-08-31 13:51:07,0.339s,PASSED
+"scrollToElement(findTestObject(""Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih tanggal""), 30)",Chrome 92.0.4515.159,,,2021-08-31 13:51:07,2021-08-31 13:51:07,0.325s,PASSED
+"if (TanggalJanji != ""0"")",Chrome 92.0.4515.159,,,2021-08-31 13:51:07,2021-08-31 13:51:07,0.002s,NOT_RUN
+"click(findTestObject(""Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/span_31""))",Chrome 92.0.4515.159,"tiap bulan diupdate, dibikin if
+",,2021-08-31 13:51:07,2021-08-31 13:51:07,0.363s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-31 13:51:07,2021-08-31 13:51:08,1.008s,PASSED
+"click(findTestObject(""Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/pilih jam""))",Chrome 92.0.4515.159,,,2021-08-31 13:51:08,2021-08-31 13:51:09,0.362s,PASSED
+"click(findTestObject(""Object Repository/Pre-regist OPD/Page_Buat Janji Dengan Dr. dr. John C. P. B_f26caf/button_Lanjut""))",Chrome 92.0.4515.159,,,2021-08-31 13:51:09,2021-08-31 13:51:09,0.561s,PASSED
+delay(1),Chrome 92.0.4515.159,,,2021-08-31 13:51:09,2021-08-31 13:51:10,1.009s,PASSED
+"if (Reservasi == ""Orang lain"")",Chrome 92.0.4515.159,,,2021-08-31 13:51:10,2021-08-31 13:51:20,9.368s,PASSED

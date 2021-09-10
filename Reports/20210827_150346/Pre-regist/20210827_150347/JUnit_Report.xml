@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pre-regist" time="94.79" tests="1" failures="0" errors="0">
+   <testsuite name="Pre-regist" tests="1" failures="0" errors="0" time="94.79" skipped="0" timestamp="2021-08-27 15:03:59" hostname="15997182 - N0101-7182-IQC.muf.co.id" id="Test Suites/Pre-regist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MySiloam\\Reports\\20210827_150346\\Pre-regist\\20210827_150347"/>
+         <property name="logFiles" value="D:\\MySiloam\\Reports\\20210827_150346\\Pre-regist\\20210827_150347\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="15997182 - N0101-7182-IQC.muf.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 92.0.4515.159"/>
+         <property name="hostAddress" value="10.1.189.60"/>
+         <property name="sessionId" value="1830aed7c80dbd3b17da4491e9597226"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Pre-regist Covid/OP Admin" time="92.907" classname="Test Cases/Pre-regist Covid/OP Admin" status="PASSED">
+         <system-out><![CDATA[2021-08-27 15:03:59 - [TEST_CASE][PASSED] - Test Cases/Pre-regist Covid/OP Admin: Test Cases/Pre-regist Covid/OP Admin
+
+2021-08-27 15:04:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-08-27 15:04:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-08-27 15:04:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-08-27 15:04:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-08-27 15:04:04 - [TEST_STEP][PASSED] - navigateToUrl("http://10.85.139.100:8484/checkup"): Navigate to 'http://10.85.139.100:8484/checkup' successfully
+
+2021-08-27 15:04:06 - [MESSAGE][PASSED] - Navigate to 'http://10.85.139.100:8484/checkup' successfully
+
+2021-08-27 15:04:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Login"), 120): Object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Login' is visible
+
+2021-08-27 15:04:09 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Login' is visible
+
+2021-08-27 15:04:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-08-27 15:04:09 - [MESSAGE][PASSED] - Current window maximized
+
+2021-08-27 15:04:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-08-27 15:04:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-08-27 15:04:11 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Username_username"), Username): Text 'albert.aswindra' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Username_username'
+
+2021-08-27 15:04:12 - [MESSAGE][PASSED] - Text 'albert.aswindra' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Username_username'
+
+2021-08-27 15:04:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-08-27 15:04:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-08-27 15:04:14 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Password_password"), Password): Text 'al12345678' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Password_password'
+
+2021-08-27 15:04:14 - [MESSAGE][PASSED] - Text 'al12345678' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Password_password'
+
+2021-08-27 15:04:14 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Login")): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Login' is clicked on
+
+2021-08-27 15:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Login' is clicked on
+
+2021-08-27 15:04:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-08-27 15:04:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-08-27 15:04:17 - [TEST_STEP][PASSED] - waitForPageLoad(30, STOP_ON_FAILURE): Wait for page load successfully
+
+2021-08-27 15:04:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-08-27 15:04:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Add New Group"), 10): Object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Add New Group' is visible
+
+2021-08-27 15:04:17 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Add New Group' is visible
+
+2021-08-27 15:04:17 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Add New Group")): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Add New Group' is clicked on
+
+2021-08-27 15:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Add New Group' is clicked on
+
+2021-08-27 15:04:18 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/group-name"), GroupName): Text 'Testf' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/group-name'
+
+2021-08-27 15:04:20 - [MESSAGE][PASSED] - Text 'Testf' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/group-name'
+
+2021-08-27 15:04:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_group type"), GroupType, true): All options with value '1' are selected in object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_group type'  using regular expression
+
+2021-08-27 15:04:21 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_group type'  using regular expression
+
+2021-08-27 15:04:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-08-27 15:04:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-08-27 15:04:23 - [TEST_STEP][PASSED] - if (Services == "DT"): null
+
+2021-08-27 15:04:23 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Services_non-drive-thru' is clicked on
+
+2021-08-27 15:04:23 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Services_non-drive-thru")): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Services_non-drive-thru' is clicked on
+
+2021-08-27 15:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Services_non-drive-thru' is clicked on
+
+2021-08-27 15:04:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-08-27 15:04:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-08-27 15:04:25 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/dropdown")): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/dropdown' is clicked on
+
+2021-08-27 15:04:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/dropdown' is clicked on
+
+2021-08-27 15:04:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-08-27 15:04:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-08-27 15:04:28 - [TEST_STEP][PASSED] - if (Paket == "Rapid Test"): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/paket/Rapid Test' is clicked on
+
+2021-08-27 15:04:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/paket/Rapid Test"), 120): Scroll to object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/paket/Rapid Test' successfully
+
+2021-08-27 15:04:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/paket/Rapid Test' successfully
+
+2021-08-27 15:04:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-08-27 15:04:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-08-27 15:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/paket/Rapid Test")): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/paket/Rapid Test' is clicked on
+
+2021-08-27 15:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/paket/Rapid Test' is clicked on
+
+2021-08-27 15:04:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-08-27 15:04:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-08-27 15:04:32 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Body URL")): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Body URL' is clicked on
+
+2021-08-27 15:04:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Body URL' is clicked on
+
+2021-08-27 15:04:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-08-27 15:04:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-08-27 15:04:34 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Save")): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Save' is clicked on
+
+2021-08-27 15:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Save' is clicked on
+
+2021-08-27 15:04:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/div_OKCancel"), 5): Web element with id: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/div_OKCancel' located by '(.//*[normalize-space(text()) and normalize-space(.)='The data has been successfully updated'])[1]/following::div[4]' not found
+
+2021-08-27 15:04:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='The data has been successfully updated'])[1]/following::div[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-08-27 15:04:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/div_OKCancel'. Try using Self-healing.
+
+2021-08-27 15:04:41 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='The data has been successfully updated'])[1]/following::div[4]'.
+
+2021-08-27 15:04:41 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::div[6]'.
+
+2021-08-27 15:04:41 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[4]/div/div[3]'.
+
+2021-08-27 15:04:41 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='The data has been successfully updated'])[1]/following::div[4]'.
+
+2021-08-27 15:04:42 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::div[6]'.
+
+2021-08-27 15:04:42 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[4]/div/div[3]'.
+
+2021-08-27 15:04:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'OKCancel' or . = 'OKCancel')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-08-27 15:04:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.swal2-actions'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-08-27 15:04:44 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/div_OKCancel' located by '(.//*[normalize-space(text()) and normalize-space(.)='The data has been successfully updated'])[1]/following::div[4]' not found
+
+2021-08-27 15:04:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-08-27 15:04:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-08-27 15:04:47 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Add Schedule")): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Add Schedule' is clicked on
+
+2021-08-27 15:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_Add Schedule' is clicked on
+
+2021-08-27 15:04:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-08-27 15:04:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-08-27 15:04:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_Hari"), Hari, true): All options with value '1' are selected in object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_Hari'  using regular expression
+
+2021-08-27 15:04:51 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_Hari'  using regular expression
+
+2021-08-27 15:04:51 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Quota Appointment"), Appointment): Text '1' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Quota Appointment'
+
+2021-08-27 15:04:52 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Quota Appointment'
+
+2021-08-27 15:04:52 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Quota Non Appointment"), NonAppointment): Text '1' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Quota Non Appointment'
+
+2021-08-27 15:04:52 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/input_Quota Non Appointment'
+
+2021-08-27 15:04:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-08-27 15:04:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-08-27 15:04:53 - [TEST_STEP][PASSED] - println(Services): null
+
+2021-08-27 15:04:53 - [TEST_STEP][PASSED] - if (Services == "nonDT"): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_save modal' is clicked on
+
+2021-08-27 15:04:53 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/dropdown_Room")): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/dropdown_Room' is clicked on
+
+2021-08-27 15:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/dropdown_Room' is clicked on
+
+2021-08-27 15:04:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/div_Floor 1 - Bedah - Room 3"), 30): Object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/div_Floor 1 - Bedah - Room 3' is visible
+
+2021-08-27 15:04:54 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/div_Floor 1 - Bedah - Room 3' is visible
+
+2021-08-27 15:04:54 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_room")): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_room' is clicked on
+
+2021-08-27 15:04:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_room' is clicked on
+
+2021-08-27 15:04:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-08-27 15:04:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-08-27 15:04:57 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_room"), Ruangan, STOP_ON_FAILURE): Text 'Floor 1 - Bedah - Room 3' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_room'
+
+2021-08-27 15:04:57 - [MESSAGE][PASSED] - Text 'Floor 1 - Bedah - Room 3' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_room'
+
+2021-08-27 15:04:57 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/pilih ruangan")): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/pilih ruangan' is clicked on
+
+2021-08-27 15:04:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/pilih ruangan' is clicked on
+
+2021-08-27 15:04:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-08-27 15:04:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-08-27 15:04:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_jam mulai"), JamMulai, true): All options with value '08' are selected in object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_jam mulai'  using regular expression
+
+2021-08-27 15:05:00 - [MESSAGE][PASSED] - All options with value '08' are selected in object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_jam mulai'  using regular expression
+
+2021-08-27 15:05:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_menit mulai"), MenitMulai, true): All options with value '30' are selected in object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_menit mulai'  using regular expression
+
+2021-08-27 15:05:01 - [MESSAGE][PASSED] - All options with value '30' are selected in object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_menit mulai'  using regular expression
+
+2021-08-27 15:05:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_jam selesai"), JamSelesai, true): All options with value '11' are selected in object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_jam selesai'  using regular expression
+
+2021-08-27 15:05:02 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_jam selesai'  using regular expression
+
+2021-08-27 15:05:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_menit selesai"), MenitSelesai, true): All options with value '00' are selected in object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_menit selesai'  using regular expression
+
+2021-08-27 15:05:04 - [MESSAGE][PASSED] - All options with value '00' are selected in object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/select_menit selesai'  using regular expression
+
+2021-08-27 15:05:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-08-27 15:05:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-08-27 15:05:07 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_Effective from")): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_Effective from' is clicked on
+
+2021-08-27 15:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_Effective from' is clicked on
+
+2021-08-27 15:05:07 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_Effective from"), DariTanggal): Text '2021-08-30' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_Effective from'
+
+2021-08-27 15:05:08 - [MESSAGE][PASSED] - Text '2021-08-30' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_Effective from'
+
+2021-08-27 15:05:08 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_Effective to")): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_Effective to' is clicked on
+
+2021-08-27 15:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_Effective to' is clicked on
+
+2021-08-27 15:05:08 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_Effective to"), KeTanggal): Text '2021-08-30' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_Effective to'
+
+2021-08-27 15:05:09 - [MESSAGE][PASSED] - Text '2021-08-30' is set on object 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/Input_Effective to'
+
+2021-08-27 15:05:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-08-27 15:05:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-08-27 15:05:12 - [TEST_STEP][PASSED] - click(findTestObject("Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_save modal")): Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_save modal' is clicked on
+
+2021-08-27 15:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-regist Covid/OP Admin/MySiloam OPD Administrator/button_save modal' is clicked on
+
+2021-08-27 15:05:12 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2021-08-27 15:05:32 - [MESSAGE][PASSED] - Delayed 20 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-08-27 15:03:59 - [TEST_SUITE][PASSED] - Pre-regist: Test Cases/Pre-regist Covid/OP Admin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

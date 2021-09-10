@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pre-regist" time="4.271" tests="1" failures="0" errors="1">
+   <testsuite name="Pre-regist" tests="1" failures="0" errors="1" time="4.271" skipped="0" timestamp="2021-08-25 10:12:01" hostname="15997182 - N0101-7182-IQC.muf.co.id" id="Test Suites/Pre-regist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MySiloam\\Reports\\20210825_101149\\Pre-regist\\20210825_101149"/>
+         <property name="logFiles" value="D:\\MySiloam\\Reports\\20210825_101149\\Pre-regist\\20210825_101149\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="15997182 - N0101-7182-IQC.muf.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 92.0.4515.159"/>
+         <property name="hostAddress" value="10.1.189.73"/>
+         <property name="sessionId" value="2cfe751e45f9bde23e2e8391bb87ff83"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Pre-regist Covid/OP Admin" time="0.177" classname="Test Cases/Pre-regist Covid/OP Admin" status="ERROR">
+         <error type="ERROR" message="Test Cases/Pre-regist Covid/OP Admin FAILED.
+Reason:
+java.lang.ClassNotFoundException: connection.data_table
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:100)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:45)
+	at OP Admin.run(OP Admin:176)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1629861109571.run(TempTestSuite1629861109571.groovy:36)
+"/>
+         <system-out><![CDATA[2021-08-25 10:12:03 - [TEST_CASE][ERROR] - Test Cases/Pre-regist Covid/OP Admin: Test Cases/Pre-regist Covid/OP Admin FAILED.
+Reason:
+java.lang.ClassNotFoundException: connection.data_table
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:100)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:45)
+	at OP Admin.run(OP Admin:176)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1629861109571.run(TempTestSuite1629861109571.groovy:36)
+
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - navigateToUrl("http://10.85.139.100:8484/checkup"): NOT_RUN: navigateToUrl("http://10.85.139.100:8484/checkup")
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("http://10.85.139.100:8484/checkup")
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Login"), 120): NOT_RUN: waitForElementVisible(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Login"), 120)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Login"), 120)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/input_Username_username"), Username): NOT_RUN: setText(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/input_Username_username"), Username)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/input_Username_username"), Username)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/input_Password_password"), Password): NOT_RUN: setText(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/input_Password_password"), Password)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/input_Password_password"), Password)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Login")): NOT_RUN: click(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Login"))
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Login"))
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - waitForPageLoad(30, STOP_ON_FAILURE): NOT_RUN: waitForPageLoad(30, STOP_ON_FAILURE)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForPageLoad(30, STOP_ON_FAILURE)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Add New Group"), 10): NOT_RUN: waitForElementVisible(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Add New Group"), 10)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Add New Group"), 10)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Add New Group")): NOT_RUN: click(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Add New Group"))
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Add New Group"))
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/group-name"), GroupName): NOT_RUN: setText(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/group-name"), GroupName)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/group-name"), GroupName)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_group type"), GroupType, true): NOT_RUN: selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_group type"), GroupType, true)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_group type"), GroupType, true)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - if (Services == "DT"): NOT_RUN: if (Services == "DT")
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: if (Services == "DT")
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/dropdown")): NOT_RUN: click(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/dropdown"))
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/dropdown"))
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - if (Paket == "Rapid Test"): NOT_RUN: if (Paket == "Rapid Test")
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: if (Paket == "Rapid Test")
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Save")): NOT_RUN: click(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Save"))
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Save"))
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - delay(3): NOT_RUN: delay(3)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(3)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Save")): NOT_RUN: click(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Save"))
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Save"))
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/div_OKCancel"), 5): NOT_RUN: waitForElementVisible(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/div_OKCancel"), 5)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/div_OKCancel"), 5)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/div_OKCancel")): NOT_RUN: click(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/div_OKCancel"))
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/div_OKCancel"))
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - waitForElementNotVisible(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/div_OKCancel"), 5): NOT_RUN: waitForElementNotVisible(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/div_OKCancel"), 5)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementNotVisible(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/div_OKCancel"), 5)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - delay(3): NOT_RUN: delay(3)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(3)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Add Schedule")): NOT_RUN: click(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Add Schedule"))
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/button_Add Schedule"))
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_Hari"), Hari, true): NOT_RUN: selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_Hari"), Hari, true)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_Hari"), Hari, true)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/input_Quota Appointment"), Appointment): NOT_RUN: setText(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/input_Quota Appointment"), Appointment)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/input_Quota Appointment"), Appointment)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/input_Quota Non Appointment"), NonAppointment): NOT_RUN: setText(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/input_Quota Non Appointment"), NonAppointment)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/input_Quota Non Appointment"), NonAppointment)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - delay(3): NOT_RUN: delay(3)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(3)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - println(Services): NOT_RUN: println(Services)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: println(Services)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - if (Services == "nonDT"): NOT_RUN: if (Services == "nonDT")
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: if (Services == "nonDT")
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_jam mulai"), JamMulai, true): NOT_RUN: selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_jam mulai"), JamMulai, true)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_jam mulai"), JamMulai, true)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_menit mulai"), MenitMulai, true): NOT_RUN: selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_menit mulai"), MenitMulai, true)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_menit mulai"), MenitMulai, true)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_jam selesai"), JamSelesai, true): NOT_RUN: selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_jam selesai"), JamSelesai, true)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_jam selesai"), JamSelesai, true)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_menit selesai"), MenitSelesai, true): NOT_RUN: selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_menit selesai"), MenitSelesai, true)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Pre-regist Covid/OP Admin/Page_MySiloam OPD Administrator/select_menit selesai"), MenitSelesai, true)
+
+2021-08-25 10:12:03 - [TEST_STEP][NOT_RUN] - delay(3): NOT_RUN: delay(3)
+
+2021-08-25 10:12:03 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(3)
+
+2021-08-25 10:12:03 - [TEST_STEP][ERROR] - connection.data_table.connectDB("10.85.139.12", "5432", "MySiloam - DEV/UAT", "postgres", "p455*w0rd"): Test Cases/Pre-regist Covid/OP Admin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.ClassNotFoundException: connection.data_table
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at OP Admin.run(OP Admin:176)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1629861109571.run(TempTestSuite1629861109571.groovy:36)
+Caused by: java.lang.ClassNotFoundException: connection.data_table
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:100)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:45)
+	... 17 more
+
+
+2021-08-25 10:12:03 - [MESSAGE][ERROR] - connection.data_table
+
+2021-08-25 10:12:03 - [MESSAGE][ERROR] - Test Cases/Pre-regist Covid/OP Admin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.ClassNotFoundException: connection.data_table
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at OP Admin.run(OP Admin:176)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1629861109571.run(TempTestSuite1629861109571.groovy:36)
+Caused by: java.lang.ClassNotFoundException: connection.data_table
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:100)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:45)
+	... 17 more]]></system-out>
+         <system-err><![CDATA[2021-08-25 10:12:03 - [TEST_CASE][ERROR] - Test Cases/Pre-regist Covid/OP Admin: Test Cases/Pre-regist Covid/OP Admin FAILED.
+Reason:
+java.lang.ClassNotFoundException: connection.data_table
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:100)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:45)
+	at OP Admin.run(OP Admin:176)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:351)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1629861109571.run(TempTestSuite1629861109571.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-08-25 10:12:01 - [TEST_SUITE][ERROR] - Pre-regist: Test Cases/Pre-regist Covid/OP Admin FAILED.
+Reason:
+java.lang.ClassNotFoundException: connection.data_table
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:100)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:45)
+	at OP Admin.run(OP Admin:176)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1629861109571.run(TempTestSuite1629861109571.groovy:36)]]></system-out>
+      <system-err><![CDATA[2021-08-25 10:12:01 - [TEST_SUITE][ERROR] - Pre-regist: Test Cases/Pre-regist Covid/OP Admin FAILED.
+Reason:
+java.lang.ClassNotFoundException: connection.data_table
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:100)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:45)
+	at OP Admin.run(OP Admin:176)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1629861109571.run(TempTestSuite1629861109571.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

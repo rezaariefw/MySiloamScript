@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre-regist COVID,Chrome 93.0.4577.63,,,2021-09-09 08:51:20,2021-09-09 08:56:23,5m - 3.151s,PASSED
+,,,,,,,
+Test Cases/Pre-regist Covid/Linktree - FO,Chrome 93.0.4577.63,,,2021-09-09 08:51:21,2021-09-09 08:53:53,2m - 31.903s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/1. linktree - (Pilih Paket, Data Diri)""), [""NamaRS"":NamaRS, ""NamaSID"":NamaSID, ""NoHP"":NoHP, ""Email"":Email, ""TanggalKunjungan"":TanggalKunjungan, ""WaktuKunjungan"":WaktuKunjungan, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 08:51:21,2021-09-09 08:52:47,1m - 25.652s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 08:52:47,2021-09-09 08:52:49,2.014s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/2. linktree - (PE Form, pembayaran)""), [""PernahBerobat"":PernahBerobat, ""TujuanPemeriksaan"":TujuanPemeriksaan, ""Pekerjaan"":Pekerjaan, ""Namaortu"":Namaortu, ""Provinsi"":Provinsi, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 08:52:49,2021-09-09 08:53:51,1m - 1.497s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 08:53:51,2021-09-09 08:53:53,2.006s,PASSED
+,,,,,,,
+Test Cases/Pre-regist Covid/Linktree - FO,Chrome 93.0.4577.63,,,2021-09-09 08:53:53,2021-09-09 08:56:23,2m - 30.602s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/1. linktree - (Pilih Paket, Data Diri)""), [""NamaRS"":NamaRS, ""NamaSID"":NamaSID, ""NoHP"":NoHP, ""Email"":Email, ""TanggalKunjungan"":TanggalKunjungan, ""WaktuKunjungan"":WaktuKunjungan, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 08:53:53,2021-09-09 08:55:09,1m - 16.214s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 08:55:09,2021-09-09 08:55:11,2.014s,PASSED
+"callTestCase(findTestCase(""Pre-regist Covid/TestCase/2. linktree - (PE Form, pembayaran)""), [""PernahBerobat"":PernahBerobat, ""TujuanPemeriksaan"":TujuanPemeriksaan, ""Pekerjaan"":Pekerjaan, ""Namaortu"":Namaortu, ""Provinsi"":Provinsi, ... ], STOP_ON_FAILURE)",Chrome 93.0.4577.63,,,2021-09-09 08:55:11,2021-09-09 08:56:21,1m - 10.351s,PASSED
+delay(2),Chrome 93.0.4577.63,,,2021-09-09 08:56:21,2021-09-09 08:56:23,2.004s,PASSED
